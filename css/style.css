@@ -1,9 +1,10 @@
 .call {
     text-align: center;
-    background-image: url("img/pexels-karolina-grabowska-4386426.jpg");
+    background-image: url("pexels-karolina-grabowska-4386426.jpg");
+    color: blue;
 }
 
 .header {
     text-align: center;
-    font: bold; 
+    background-color: lightblue; 
 }
