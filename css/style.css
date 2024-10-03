@@ -1,10 +1,145 @@
+body {
+    background-color: rgb(86, 188, 232);
+}
+
+h2 {
+    color: maroon;
+    background-color: rgb(140, 201, 231);
+}
+
+h3 {
+    background-color: white;
+    color: blue;
+}
+
 .call {
     text-align: center;
-    background-image: url("pexels-karolina-grabowska-4386426.jpg");
+    background-color: blue;
+    color: white;
+}
+
+.choose {
+    background-color: white;
     color: blue;
+    border-color: rgb(183, 42, 42);
+    text-align: center;
+}
+
+.faq {
+    text-align: center;
+}
+
+.faq p {
+    background-color: white;
+    color: blue;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+}
+
+.footer p {
+    color: lightblue;
+    text-align: center;
+}
+
+.footer h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.form h3 {
+    color: black;
+    background-color: None;
+    text-align: center;
 }
 
 .header {
     text-align: center;
+    color: blue;
     background-color: lightblue; 
+}
+
+.learn {
+    text-align: center;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.rights {
+    text-align: center;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+table, td {
+    border: 1px solid lightblue;
+    color: blue;
+    text-align: center;}
+
+.table {
+    background-color: white;}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: turquoise;
+        }
+    
+    h2 {
+        background-color: lightsalmon;
+        color: black; 
+        }
+    
+    .table {
+        background-color: lightcoral; 
+        }
+    
+    .footer {
+        background-color:maroon;
+        }
+    .form {
+        background-color: turquoise;
+        }    
+    }
+
+@media screen and (max-width: 576px) {
+    .rights {
+        width: 70%; 
+        -webkit-order: 2; 
+        order: 2;
+        }
+        
+    body {
+        color: darkblue;
+    }
+
+    h2 {
+        color: red; 
+    }
+
+    h3 {
+        color: orchid;
+    }
+
+    .table {
+        color: maroon; 
+    }
+
+    .footer {
+        background-color: brown
+    }
+    .form {
+        background-color: lightblue;
+    }
 }
